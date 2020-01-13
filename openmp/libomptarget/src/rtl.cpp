@@ -31,7 +31,7 @@ static const char *RTLNames[] = {
     /* AArch64 target */ "libomptarget.rtl.aarch64.so"};
 
 static const char *RTLQuickCheckFiles[] = {
-    /* open-power is unique to ppc      */ "/sys/firmware/devicetree/base/ibm,firmware-versions/open-power",
+    /* ibm,powerpc is unique to ppc     */ "/sys/firmware/devicetree/base/cpus/ibm,powerpc-cpu-features",
     /* acpiis unique to x86             */ "/sys/firmware/acpi",
     /* nvidia0 is unique to CUDA target */ "/dev/nvidia0",
     /* kfd device is unique to HSA      */ "/dev/kfd",
